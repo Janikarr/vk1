@@ -1,89 +1,132 @@
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <link
       href="https://bootswatch.com/5/materia/bootstrap.min.css"
       rel="stylesheet"
     />
 
-   
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
-      <ul class="menu">
-        <li><a href="index.html">Main</a></li>
-        <li><a href="cv.html">Cv</a></li>
-        <li><a href="hobbies.html">Hobbies</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Main</a></li>
+          <li><a href="cv.html">Cv</a></li>
+          <li><a href="hobbies.html">Hobbies</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
 
-    <h4>Please contact me by using this form</h4>
-    <form>
+      <h4>Please contact me by using this form</h4>
+      <form>
         <fieldset>
-        
-        <div class="row">
-       
-        <div class="col-sm-10">
-      
-        </div>
-        </div>
-        <div>
+          <div class="row">
+            <div class="col-sm-10"></div>
+          </div>
+          <div>
             <label for="exampleInputName1" class="form-label mt-4">Name</label>
-        <input type="name" class="form-control" id="exampleInputName1" placeholder="Name" autocomplete="off">
-        </div>
-        <div> 
+            <input
+              type="name"
+              class="form-control"
+              id="exampleInputName1"
+              placeholder="Name"
+              autocomplete="off"
+            />
+          </div>
+          <div>
             <label for="exampleInputAge1" class="form-label mt-4">Age</label>
-            <input type="number" class="form-control" id="exampleInputAge1" min="0" max="100" step="1">
-        </div>
-        <label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-        
-        </div>
-        <label for="exampleTextarea" class="form-label mt-4">Message</label>
-        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
-        <div>
-        
-        </div>
-      
-        <fieldset>
-            <legend class="mt-4">How did you know about this page?</legend>
-        
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                <label class="form-check-label" for="optionsRadios1">
-                   Google
-                </label>
-            </div>
-        
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                <label class="form-check-label" for="optionsRadios2">
-                    From a friend
-                </label>
-            </div>
-        
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-                <label class="form-check-label" for="optionsRadios3">
-                    From Linkedin
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios4" value="option4">
-                <label class="form-check-label" for="optionsRadios4">
-                    Other
-                </label>
-            </div>
+            <input
+              type="number"
+              class="form-control"
+              id="exampleInputAge1"
+              min="0"
+              max="100"
+              step="1"
+            />
+          </div>
+          <label for="exampleInputEmail1" class="form-label mt-4"
+            >Email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="Enter email"
+          />
+
+          <div>
+            <label for="exampleTextarea" class="form-label mt-4">Message</label>
+            <textarea
+              class="form-control"
+              id="exampleTextarea"
+              rows="3"
+            ></textarea>
+          </div>
+
+          <legend class="mt-4">How did you know about this page?</legend>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="optionsRadios"
+              id="optionsRadios1"
+              value="option1"
+              checked
+            />
+            <label class="form-check-label" for="optionsRadios1">
+              Google
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="optionsRadios"
+              id="optionsRadios2"
+              value="option2"
+            />
+            <label class="form-check-label" for="optionsRadios2">
+              From a friend
+            </label>
+          </div>
+
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="optionsRadios"
+              id="optionsRadios3"
+              value="option3"
+            />
+            <label class="form-check-label" for="optionsRadios3">
+              From Linkedin
+            </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="radio"
+              name="optionsRadios"
+              id="optionsRadios4"
+              value="option4"
+            />
+            <label class="form-check-label" for="optionsRadios4"> Other </label>
+          </div>
         </fieldset>
-        
-        
+
         <button type="submit" class="btn btn-primary mt-3">Submit</button>
-        
-        </form>
+      </form>
+    </div>
   </body>
 </html>
